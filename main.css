@@ -103,6 +103,7 @@ img{
     color: #fff;
     cursor: pointer;
     transition: var(--transition);
+    border-radius: 5px;
 }
 .head-btn:hover{
     background: transparent;
@@ -519,4 +520,17 @@ img{
     bottom: 0;
     left: 0;
     z-index: 5;
+}
+
+.book-btn {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
 }
