@@ -19,3 +19,10 @@ window.addEventListener('click', function(event){
         modal.classList.remove('showModal');
     }
 });
+
+ document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('booking-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+      window.location.href = 'https://airbnb.com/h/palisnest/';
+    });
+  });
